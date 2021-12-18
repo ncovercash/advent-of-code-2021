@@ -11,6 +11,7 @@ Each day of code has an associated `md` file for an explanation of my thought pr
 Other questions:
 
 - Why did I chose C++? Nice standard library, I guess, but no real reason.
+- Why do I mix `printf` and `cout` so much? Chaos. Just kidding -- in most cases, `cout` is fairly elegant and the modern stream syntax is rather neat. However, when something is dense with a lot of variables, `printf` is much more compact.
 
 ## Compilation
 

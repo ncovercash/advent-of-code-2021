@@ -36,7 +36,8 @@ int main(int argc, char **argv) {
     }
   }
 
-  for (int t=0; t < 256; t++) {
+  for (int t=0; t < 80; t++) {
+    printf("Day: %d\r", t);
     // reverse to avoid processing new fish
     for (int i = feesh.size()-1; i >= 0; i--) {
       if (feesh[i] == 0) {

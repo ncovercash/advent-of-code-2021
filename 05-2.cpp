@@ -49,7 +49,7 @@ class Vent {
         this->m = (y2 - y1)/(x2 - x1);
         this->b = y2 - this->m * x2;
 
-      printf("%d,%d -> %d,%d\n", this->x1, this->y1, this->x2, this->y2);
+        printf("%d,%d -> %d,%d\n", this->x1, this->y1, this->x2, this->y2);
         cout << "y = " << this->m << "x + " << this->b << endl;
       }
 
