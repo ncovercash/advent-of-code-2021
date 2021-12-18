@@ -11,7 +11,7 @@ int main(int argc, char **argv) {
 
   int horizontal = 0;
   int depth      = 0;
-  int aim      = 0;
+  int aim        = 0;
 
   string direction;
   int amount;

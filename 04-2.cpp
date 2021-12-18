@@ -89,7 +89,7 @@ int main(int argc, char **argv) {
       }
     }
   }
-  foundBoard:
+
   int sum = 0;
   for (int i = 0; i < 25; i++) {
     sum += boards[finishedBoard][i];
