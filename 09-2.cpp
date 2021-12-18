@@ -67,11 +67,6 @@ void addAdjacents(pair<int, int> point, int lineLength, vector<int*> map, vector
 }
 
 int main(int argc, char **argv) {
-  // if (argc != 2) {
-  //   cout << "Please provide the puzzle input as a command-line argument" << endl;
-  //   return 1;
-  // }
-
   ifstream input("09.txt");
   if (!input.good()) {
     cout << "Could not open file." << endl;

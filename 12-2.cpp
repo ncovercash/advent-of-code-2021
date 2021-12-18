@@ -74,11 +74,6 @@ void traverse(string key, bool hasTwice, const unordered_map<string, vector<stri
 }
 
 int main(int argc, char **argv) {
-  // if (argc != 2) {
-  //   cout << "Please provide the puzzle input as a command-line argument" << endl;
-  //   return 1;
-  // }
-
   ifstream input("12.txt");
   if (!input.good()) {
     cout << "Could not open file." << endl;

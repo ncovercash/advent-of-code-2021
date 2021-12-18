@@ -35,11 +35,6 @@ void ping(vector<vector<int> > &octopi, int i, int j, vector<pair<int, int> > &w
 }
 
 int main(int argc, char **argv) {
-  // if (argc != 2) {
-  //   cout << "Please provide the puzzle input as a command-line argument" << endl;
-  //   return 1;
-  // }
-
   ifstream input("11.txt");
   if (!input.good()) {
     cout << "Could not open file." << endl;

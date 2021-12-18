@@ -4,12 +4,7 @@
 using namespace std;
 
 int main(int argc, char **argv) {
-  if (argc != 2) {
-    cout << "Please provide the puzzle input as a command-line argument" << endl;
-    return 1;
-  }
-
-  ifstream input(argv[1]);
+  ifstream input("03.txt");
   if (!input.good()) {
     cout << "Could not open file." << endl;
     return 2;
